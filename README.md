@@ -6,8 +6,13 @@ Inception V3 was used for SurePath slides which have a much higher density and s
 
 ## Installation
 Installation steps for Keras using tensorflow can be found here: https://github.com/keras-team/keras
+
+
 The Inception V3 model can be found here: https://github.com/stcmedhub/keras-applications/blob/master/keras_applications/inception_v3.py
+
+
 A detailed description of the Inception V3 model can be found here: https://keras.io/applications/#inceptionv3
+
 
 
 # CNN4 
