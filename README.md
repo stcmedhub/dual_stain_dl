@@ -14,7 +14,7 @@ to install CNN.
 
 1. Install python 3.4.5 
 2. Install Theano http://deeplearning.net/software/theano_versions/0.8.X/install.html
-3. CNN4 comes with a list of know dependencies. Install the requirements with: $ pip install -r https://github.com/stcmedhub/dual_stain_dl/master/requirements.txt
+3. CNN4 comes with a list of know dependencies. Install the requirements with: $ pip install -r https://github.com/stcmedhub/dual_stain_dl/blob/master/requirements.txt
 4. Train CNN4 using it's fit function as described in https://nbviewer.jupyter.org/github/dnouri/nolearn/blob/master/docs/notebooks/CNN_tutorial.ipynb
 
 .. note:: 
