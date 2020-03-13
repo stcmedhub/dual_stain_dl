@@ -2,13 +2,12 @@
 
 # Inception V3
 
-Inception V3 was mainly used for SurePath slides which have a much higher density and somewhat different appearance of cells compared to ThinPrep slides. InceptionV3 consists of 54 layers and Keras as a higher machine-learning software abstraction layer, allowing access to the TensorFlow backend. The “Inception V3” network was originally applied to the ILSVRC (ImageNet) classification challenge, to classify objects into one of 1000 categories. Due to the binary classification problem of double-stain event detection, we changed the classification layers of the network to an output of two classes. Data preprocessing was applied to the training set by rescaling intensity values to a range from 0 to 1, applying mean subtraction and normalization by dividing each dimension by its standard deviation. The networks were trained using the Stochastic Gradient Descent optimizer (SGD) with heavy data augmentation (rotation, color, shifting) but without transfer learning.
+Inception V3 was used for SurePath slides which have a much higher density and somewhat different appearance of cells compared to ThinPrep slides. InceptionV3 consists of 54 layers and Keras as a higher machine-learning software abstraction layer, allowing access to the TensorFlow backend. The “Inception V3” network was originally applied to the ILSVRC (ImageNet) classification challenge, to classify objects into one of 1000 categories. Due to the binary classification problem of double-stain event detection, we changed the classification layers of the network to an output of two classes. Data preprocessing was applied to the training set by rescaling intensity values to a range from 0 to 1, applying mean subtraction and normalization by dividing each dimension by its standard deviation. The networks were trained using the Stochastic Gradient Descent optimizer (SGD) with heavy data augmentation (rotation, color, shifting) but without transfer learning.
 
 ## Installation
 Installation steps for Keras using tensorflow can be found here: https://github.com/keras-team/keras
 The Inception V3 model can be found here: https://github.com/stcmedhub/keras-applications/blob/master/keras_applications/inception_v3.py
 A detailed description of the Inception V3 model can be found here: https://keras.io/applications/#inceptionv3
-
 
 
 # CNN4 
