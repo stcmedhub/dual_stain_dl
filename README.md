@@ -1,4 +1,4 @@
-*dual_stain_dl* contains the presented network structures and installation guides
+*dual_stain_dl* contains infos and installation guides for the deep learning models presented in the paper "Deep-learning-based evaluation of dual stain cytology improves accuracy and efficiency of cervical cancer screening".
 
 # Inception V3
 
